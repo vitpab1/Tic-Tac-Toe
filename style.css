@@ -1,6 +1,6 @@
 body {
   background: #212761;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -12,7 +12,7 @@ header .titulo {
 }
 
 header h1 {
-  font-size: 7em;
+  font-size: 7rem;
   margin: 0;
   color: white;
   text-align: center;
@@ -50,7 +50,6 @@ h2 {
 }
 
 .board button {
-  background-color: red;
   aspect-ratio: 1;
   background-color: #212761;
   border: none;
@@ -58,6 +57,11 @@ h2 {
 
 .board button:hover {
   background-color: #387af5;
+}
+
+.board .field {
+  font-size: 5em;
+  color: white;
 }
 
 .reset {
@@ -71,5 +75,11 @@ h2 {
   padding: 10px 30px;
   font-weight: 600;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  body h1 {
+    font-size: 5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

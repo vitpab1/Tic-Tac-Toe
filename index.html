@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
 
     <title>Document</title>
   </head>
@@ -16,10 +18,10 @@
       </div>
     </header>
 
-    <h2>Player X's turn</h2>
+    <h2 id ="title">Player <span id ="SwapTurnTitle">X</span>'s turn</h2>
     <div class="boardbackground">
-      <div class="board">
-        <button class="field"></button><button class="field"></button
+      <div class="board" id ="board">
+        <button class="field" ></button><button class="field"></button
         ><button class="field"></button><button class="field"></button
         ><button class="field"></button><button class="field"></button
         ><button class="field"></button><button class="field"></button
@@ -27,6 +29,6 @@
       </div>
     </div>
 
-    <div class="reset1"><button class="reset">Reset</button></div>
+    <div class="reset1"><button class="reset" id ="reset">Reset</button></div>
   </body>
 </html>
